@@ -24,8 +24,8 @@ function draw() {
      dog.addImage(dog1img);
   }
   drawSprites();
- stroke(12)
-  textSize(15);
+fill("white")
+  textSize(30);
   text("remainingFood"+":" +food,120,120)
 
 }
@@ -45,3 +45,4 @@ function writeStock(x){
  })
   }
   
+
