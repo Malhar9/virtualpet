@@ -26,7 +26,7 @@ function draw() {
   drawSprites();
  stroke(12)
   textSize(15);
-  text("remainingFood"+":" +foodstock,120,120)
+  text("remainingFood"+":" +food,120,120)
 
 }
 function readStock(data){
