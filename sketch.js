@@ -2,8 +2,8 @@ var dog,dogimg,database,foodstock,food;
 
 function preload()
 {
-dogimg=loadImage("dogImg.png")
-dog1img=loadImage("dogImg1.png")
+dogimg=loadImage("images/dogImg.png")
+dog1img=loadImage("images/dogImg1.png")
 }
 
 function setup() {
@@ -30,7 +30,7 @@ fill("white")
 
 }
 function readStock(data){
-foodstock=data.val();
+food=data.val();
 }
 
 function writeStock(x){
@@ -41,8 +41,7 @@ function writeStock(x){
  }
  
   database.ref('/').update({
-   Food:x
+   'Food':x
  })
   }
   
-
